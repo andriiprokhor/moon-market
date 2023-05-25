@@ -9,7 +9,7 @@ export function Category({ param, onClick }: any) {
       stringClass = "bg-emerald-400"
       break
     case "men's clothing":
-      stringClass = "bg-blue-400"
+      stringClass = "bg-blue-500"
       break
     case "electronics":
       stringClass = "bg-gray-400"
