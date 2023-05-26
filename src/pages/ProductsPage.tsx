@@ -53,7 +53,7 @@ export function ProductsPage() {
   ]
   return (
     <>
-      <div className="container mx-auto max-w-4xl pt-5 place-items-center grid grid-cols-1 gap-1 sm:grid-cols-2 py-6 dark:bg-neutral-900 border-neutral-800 bg-slate-200">
+      <div className="container mx-auto max-w-4xl pt-5 place-items-center grid grid-cols-1 gap-1 sm:grid-cols-2 py-6 dark:bg-neutral-900 border-neutral-800 bg-slate-200 min-h-screen ">
         <div className="col-span-1 sm:col-span-2">
           <SearchBar
             searchQuery={searchQuery}
