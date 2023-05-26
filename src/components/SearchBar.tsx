@@ -36,7 +36,8 @@ export default function SearchBar({
           id="sortPrice"
           checked={sortByPrice === "asc"}
           onChange={handleSortByPriceChange}
-          className=" hover:cursor-pointer"
+          className=" hover:cursor-pointer bg-gray-200 hover:bg-gray-300 cursor-pointer 
+          w-6 h-6 border-3 border-amber-500  text-red-600 focus:outline-none rounded-lg"
         />
         <label
           htmlFor="sortPrice"
