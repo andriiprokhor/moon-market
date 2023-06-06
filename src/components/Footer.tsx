@@ -1,5 +1,3 @@
-import React from "react"
-
 const Footer = () => {
   return (
     <footer className="bg-slate-200 py-16  dark:bg-neutral-900">
